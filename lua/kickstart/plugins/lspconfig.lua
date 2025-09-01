@@ -219,7 +219,7 @@ return {
         --
         -- But for many setups, the LSP (`ts_ls`) will work just fine
         ts_ls = {},
-        eslint = {},
+        -- eslint = {},
         docker_language_server = {},
         tailwindcss = {},
         jsonls = {},
