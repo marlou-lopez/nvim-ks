@@ -1,6 +1,8 @@
 return {
-  'obsidian-nvim/obsidian.nvim',
-  version = '*', -- recommended, use latest release instead of latest commit
+  -- dir = '~/Code/Projects/obsidian.nvim',
+  'marlou-lopez/obsidian.nvim',
+  branch = '3.14.8',
+  -- 'obsidian-nvim/obsidian.nvim',
   cmd = { 'Obsidian' },
   ft = 'markdown',
   -- Replace the above line with this if you only want to load obsidian.nvim for markdown files in your vault:
@@ -22,8 +24,13 @@ return {
       },
       {
         name = 'work',
-        path = '~/Work/notes',
+        path = '~/vaults/work',
       },
+    },
+    open_notes_in = 'vsplit',
+    daily_notes = {
+      -- folder = 'inbox/dailies',
+      default_tags = { 'daily-notes' },
     },
   },
   ui = {
